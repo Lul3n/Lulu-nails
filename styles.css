@@ -163,4 +163,49 @@ button:hover {
     object-fit: contain;
 }
 
+@media (max-width: 1024px) {
+
+    .navbar {
+        padding: 20px 40px;
+    }
+
+    .hero {
+        padding: 0 40px;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero-left {
+        align-items: center;
+    }
+
+    .hero-image {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .navbar {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .nav_center {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .socialmedia {
+        justify-content: center;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+}
 
