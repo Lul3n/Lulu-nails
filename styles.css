@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Raleway", sans-serif;
     background-color: #661a23;
     color: white;
 }
@@ -139,3 +139,4 @@ button:hover {
     height: 40px;
     object-fit: contain;
 }
+
